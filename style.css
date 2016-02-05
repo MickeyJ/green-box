@@ -1,0 +1,41 @@
+
+body{
+    box-sizing: border-box;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.box{
+    display: inline-block;
+    border: 1px dashed black;
+    border-radius: 10px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.box1{height: 100px;}
+
+.box2{height: 200px;}
+
+.box3{height: 300px;}
+
+.box4{height: 400px;}
+
+.box5{height: 500px;}
+
+.box6{height: 600px;}
+
+.green{
+    background: #3ec47c;
+}
+
+p{
+    position: absolute;
+    top: 35%;
+    left: 34%;
+
+}
+
+.col1-6{
+    width: calc(100% / 6 - 2vw);
+}
